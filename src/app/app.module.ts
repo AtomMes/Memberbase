@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ResourcesComponent } from './pages/resources/resources.component';
+import { ResourcesPageComponent } from './pages/resources/resources-page.component';
 import { HeroComponent } from './pages/home/components/hero/hero.component';
 import { FeaturedRecoursesComponent } from './pages/home/components/resources/resources.component';
 
@@ -15,7 +15,7 @@ import { FeaturedRecoursesComponent } from './pages/home/components/resources/re
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    ResourcesComponent,
+    ResourcesPageComponent,
     HeroComponent,
     FeaturedRecoursesComponent,
   ],

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-resources',
+  selector: 'app-resources-page',
   template: `
     <p>
       resources works!
@@ -10,6 +10,6 @@ import { Component } from '@angular/core';
   styles: [
   ]
 })
-export class ResourcesComponent {
+export class ResourcesPageComponent {
 
 }
