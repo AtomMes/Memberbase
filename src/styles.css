@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: #f8ffff;
+}
+
+
+.black-button {
+  @apply bg-black text-white px-[28px] py-2 w-fit rounded-[9px] duration-200;
+}
+
+.black-button:hover {
+  background-color: hsla(216, 10.34%, 22.35%, 1);
+}
+
+.gray-button {
+  @apply bg-[#e7ecf0] text-[#626a72] px-[28px] py-2 w-fit rounded-[9px] duration-200;
+}
+.gray-button:hover {
+  background-color: #cbd5df;
+}
+
+.light-gradient {
+  background: rgb(233, 159, 223);
+  background: linear-gradient(
+    39deg,
+    rgba(233, 159, 223, 0.22731090727306547) 0%,
+    rgba(241, 125, 235, 0.18249298010219717) 24%,
+    rgba(247, 187, 247, 0.17128849830948) 52%,
+    rgba(247, 138, 255, 0.23011202772124473) 78%,
+    rgba(251, 87, 241, 0.23011202772124473) 100%
+  );
+}
