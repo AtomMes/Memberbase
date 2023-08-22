@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ResourcesPageComponent } from './pages/resources/resources-page.component';
 import { HeroComponent } from './pages/home/components/hero/hero.component';
 import { FeaturedRecoursesComponent } from './pages/home/components/resources/resources.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FeaturedRecoursesComponent } from './pages/home/components/resources/re
     ResourcesPageComponent,
     HeroComponent,
     FeaturedRecoursesComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,

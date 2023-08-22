@@ -12,7 +12,6 @@ html {
   background: #f8ffff;
 }
 
-
 .black-button {
   @apply bg-black text-white px-[28px] py-2 w-fit rounded-[9px] duration-200;
 }
@@ -27,6 +26,12 @@ html {
 .gray-button:hover {
   background-color: #cbd5df;
 }
+.white-button {
+  @apply bg-[#495158] text-white px-[28px] py-3 w-fit rounded-[9px] duration-200;
+}
+.white-button:hover {
+  background-color: #33383f;
+}
 
 .light-gradient {
   background: rgb(233, 159, 223);
@@ -37,5 +42,17 @@ html {
     rgba(247, 187, 247, 0.17128849830948) 52%,
     rgba(247, 138, 255, 0.23011202772124473) 78%,
     rgba(251, 87, 241, 0.23011202772124473) 100%
+  );
+}
+
+.black-gradient {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    39deg,
+    rgba(49, 0, 0, 0.9) 0%,
+    rgba(45, 4, 4, 0.9) 20%,
+    rgba(8, 0, 26, 0.9) 52%,
+    rgba(19, 8, 46, 0.9) 78%,
+    rgba(33, 1, 1, 0.9) 95%
   );
 }
