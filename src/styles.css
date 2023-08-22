@@ -13,7 +13,7 @@ html {
 }
 
 .black-button {
-  @apply bg-black text-white px-[28px] py-2 w-fit rounded-[9px] duration-200;
+  @apply bg-black text-white px-[28px] py-2 rounded-[9px] duration-200;
 }
 
 .black-button:hover {

@@ -13,6 +13,7 @@ import { GetResource } from "./components/get-resource/get-resource.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { FullResourcePageComponent } from './pages/full-resource-page/full-resource-page.component';
 import { GetResourcesLightComponent } from './pages/full-resource-page/components/get-resources-light/get-resources-light.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { GetResourcesLightComponent } from './pages/full-resource-page/component
     FooterComponent,
     FullResourcePageComponent,
     GetResourcesLightComponent,
+    ContactUsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],

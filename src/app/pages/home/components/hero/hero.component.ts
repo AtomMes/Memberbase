@@ -14,7 +14,7 @@ import { Component } from "@angular/core";
               The best resources and books from around the web, collected and
               curated for your reading.
             </p>
-            <button class="black-button">Get Access Now</button>
+            <button class="black-button w-fit">Get Access Now</button>
           </div>
           <div class="md:w-[50%] flex md:justify-center">
             <img
