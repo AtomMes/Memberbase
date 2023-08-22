@@ -1,0 +1,28 @@
+<div *ngIf="selectedResource">
+  <div class="dark-gradient pt-10 md:pt-20 pb-10 mb-10">
+    <div class="w-full max-w-[1200px] px-5 mx-auto flex relative">
+      <div>
+        <div
+          class="text-white text-5xl lg:text-[64px] font-semibold leading-tight md:mr-[400px]"
+        >
+          {{ selectedResource.title }}
+        </div>
+        <div class="text-[20px] mt-2 text-white">
+          By {{ selectedResource.author }}
+        </div>
+      </div>
+      <img
+        [src]="selectedResource.image"
+        class="max-w-sm absolute top-0 right-0 mr-5 hidden md:block rounded-lg"
+      />
+    </div>
+  </div>
+  <div class="w-full max-w-[1200px] mx-auto px-5 min-h-[250px]">
+    <div class="text-[18px] leading-tight md:mr-[400px]">
+      {{ selectedResource.description }}
+    </div>
+    <button class="black-button my-8">Get the eBook</button>
+    <img [src]="selectedResource.image" class="md:hidden rounded-lg" />
+  </div>
+  <app-get-resources-light />
+</div>

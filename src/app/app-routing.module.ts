@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { HomeComponent } from "./pages/home/home.component";
 import { ResourcesPageComponent } from "./pages/resources/resources-page.component";
+import { FullResourcePageComponent } from "./pages/full-resource-page/full-resource-page.component";
 
 const routes: Routes = [
   {
@@ -9,8 +10,12 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path:'resources',
-    component:ResourcesPageComponent
+    path: "resources",
+    component: ResourcesPageComponent,
+  },
+  {
+    path: "resources/:id",
+    component: FullResourcePageComponent,
   },
   { path: "", redirectTo: "home", pathMatch: "full" },
 ];

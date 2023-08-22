@@ -8,9 +8,11 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { ResourcesPageComponent } from "./pages/resources/resources-page.component";
 import { HeroComponent } from "./pages/home/components/hero/hero.component";
-import { FeaturedRecoursesComponent } from "./pages/home/components/resources/resources.component";
+import { ResourcesComponent } from "./components/resources/resources.component";
 import { GetResource } from "./components/get-resource/get-resource.component";
 import { FooterComponent } from "./components/footer/footer.component";
+import { FullResourcePageComponent } from './pages/full-resource-page/full-resource-page.component';
+import { GetResourcesLightComponent } from './pages/full-resource-page/components/get-resources-light/get-resources-light.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +21,11 @@ import { FooterComponent } from "./components/footer/footer.component";
     NavbarComponent,
     ResourcesPageComponent,
     HeroComponent,
-    FeaturedRecoursesComponent,
+    ResourcesComponent,
     GetResource,
     FooterComponent,
+    FullResourcePageComponent,
+    GetResourcesLightComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],

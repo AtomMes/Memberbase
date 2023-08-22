@@ -1,12 +1,16 @@
-import { AppComponent } from "./../../../../app.component";
+import { Router } from "@angular/router";
+import { AppComponent } from "../../app.component";
 import { Component } from "@angular/core";
+import { Resource } from "src/app/models/resource.model";
 
 @Component({
   selector: "app-recourses",
   templateUrl: "./resources.component.html",
 })
-export class FeaturedRecoursesComponent {
-  resources = [
+export class ResourcesComponent {
+  constructor(private router: Router) {}
+
+  resources: Resource[] = [
     {
       id: 1,
       image: "assets/images/ebook1.svg",
@@ -59,4 +63,8 @@ export class FeaturedRecoursesComponent {
       Minus quia eos ut.`,
     },
   ];
+
+  toResource = (id: number) => {
+    this.router.navigate(["resources", id]);
+  };
 }
