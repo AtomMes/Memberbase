@@ -17,7 +17,10 @@ import { Component } from "@angular/core";
             <button class="black-button">Get Access Now</button>
           </div>
           <div class="md:w-[50%] flex md:justify-center">
-            <img src="assets/images/heroImage.svg" class="h-[320px]" />
+            <img
+              src="assets/images/heroImage.svg"
+              class="h-[320px] mix-blend-multiply"
+            />
           </div>
         </div>
       </div>

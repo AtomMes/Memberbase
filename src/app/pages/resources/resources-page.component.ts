@@ -1,15 +1,7 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-resources-page',
-  template: `
-    <p>
-      resources works!
-    </p>
-  `,
-  styles: [
-  ]
+  selector: "app-resources-page",
+  templateUrl: "./resources-page.component.html",
 })
-export class ResourcesPageComponent {
-
-}
+export class ResourcesPageComponent {}
