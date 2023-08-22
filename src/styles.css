@@ -27,7 +27,7 @@ html {
   background-color: #cbd5df;
 }
 .white-button {
-  @apply bg-[#495158] text-white px-[28px] py-3 w-fit rounded-[9px] duration-200;
+  @apply bg-[#495158] text-white px-[28px] py-3 rounded-[9px] duration-200;
 }
 .white-button:hover {
   background-color: #33383f;
